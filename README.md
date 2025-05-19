@@ -37,17 +37,24 @@ Solução completa para gestão de:
 |-------------------------------|---------------------------------|
 | ![Console](docs/screenshots/console_mode.png) | ![GUI](docs/screenshots/gui_preview.png) |
 
-## 🚀 Como Executar a Versão Demo
+## 📂 Estrutura do Projeto
 
-```bash
-# Clone o repositório
-git clone https://github.com/LeoMSgit/App---Controle-Maquinario-Agricola.git
+App---Controle-Maquinario-Agricola/
+├── public/          # Código aberto (modo console)
+│   ├── database/    # Modelos de dados
+│   └── docs/        # Documentação completa
+└── private/         # Código completo (sob contrato)
+📄 Licença e Uso
+Este projeto é disponibilizado sob licença Personalizada:
 
-# Acesse a pasta pública
-cd App---Controle-Maquinario-Agricola/public
+Uso comercial requer autorização expressa
 
-# Instale as dependências
-pip install -r requirements.txt
+Código completo disponível apenas para clientes contratantes
 
-# Execute a versão demo
-python main.py
+Leia os termos completos
+
+# ✉️ Contato Profissional
+Desenvolvedor: Leonardo Martins
+Portfólio: leonardomartins.dev
+LinkedIn: linkedin.com/in/leoms
+Email: leo.ms@protonmail.com
