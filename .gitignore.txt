@@ -1,4 +1,3 @@
-# Arquivos sensíveis
 private/
 .env
 *.pyc
