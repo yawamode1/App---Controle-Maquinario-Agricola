@@ -44,6 +44,8 @@ App---Controle-Maquinario-Agricola/
 │   ├── database/    # Modelos de dados
 │   └── docs/        # Documentação completa
 └── private/         # Código completo (sob contrato)
+
+
 📄 Licença e Uso
 Este projeto é disponibilizado sob licença Personalizada:
 
