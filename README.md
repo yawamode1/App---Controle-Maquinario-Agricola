@@ -38,13 +38,13 @@ Solução completa para gestão de:
 | ![Console](docs/screenshots/console_mode.png) | ![GUI](docs/screenshots/gui_preview.png) |
 
 ## 📂 Estrutura do Projeto
-
+```plaintext
 App---Controle-Maquinario-Agricola/
 ├── public/          # Código aberto (modo console)
 │   ├── database/    # Modelos de dados
 │   └── docs/        # Documentação completa
 └── private/         # Código completo (sob contrato)
-
+```
 
 📄 Licença e Uso
 Este projeto é disponibilizado sob licença Personalizada:
