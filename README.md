@@ -46,14 +46,14 @@ App---Controle-Maquinario-Agricola/
 └── private/         # Código completo (sob contrato)
 ```
 
-## 📄 Licença e Uso
+## 📄 Licença e Uso [LICENSE.md](https://github.com/LeoMSgit/App---Controle-Maquinario-Agricola/blob/main/LINCENSE.md)
 Este projeto é disponibilizado sob licença Personalizada:
 
 Uso comercial requer autorização expressa
 
 Código completo disponível apenas para clientes contratantes
 
-Leia os termos completos
+Leia os termos completos em 
 
 # ✉️ Contato Profissional
 Desenvolvedor: Leonardo Miguel dos Santos
