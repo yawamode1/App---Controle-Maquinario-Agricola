@@ -26,4 +26,4 @@ Consulte [docs/DEMO.md](docs/DEMO.md) para:
 ## 📝 Licença
 Este código é disponibilizado **apenas para fins demonstrativos**.  
 O uso comercial requer autorização expressa.  
-Detalhes em [LICENSE.md](LICENSE.md)
+Detalhes em [LICENSE.md]([LICENSE.md](https://github.com/LeoMSgit/App---Controle-Maquinario-Agricola/blob/main/LINCENSE.md))
