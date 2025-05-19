@@ -46,7 +46,7 @@ App---Controle-Maquinario-Agricola/
 └── private/         # Código completo (sob contrato)
 ```
 
-## 📄 Licença e Uso [LICENSE.md](https://github.com/LeoMSgit/App---Controle-Maquinario-Agricola/blob/main/LINCENSE.md)
+## 📄 Licença e Uso [(LICENSE.md)](https://github.com/LeoMSgit/App---Controle-Maquinario-Agricola/blob/main/LICENSE.md)
 Este projeto é disponibilizado sob licença Personalizada:
 
 Uso comercial requer autorização expressa
