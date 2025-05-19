@@ -46,7 +46,7 @@ App---Controle-Maquinario-Agricola/
 └── private/         # Código completo (sob contrato)
 ```
 
-📄 Licença e Uso
+## 📄 Licença e Uso
 Este projeto é disponibilizado sob licença Personalizada:
 
 Uso comercial requer autorização expressa
