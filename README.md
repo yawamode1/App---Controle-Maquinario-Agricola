@@ -19,7 +19,7 @@ Solução completa para gestão de:
 | Estoque         | Alertas de reposição automáticos          | Produção    |
 | Backup          | Sincronização criptografada com nuvem     | Produção    |
 
-### 🚧 Em Desenvolvimento (Roadmap Q4/2023)
+### 🚧 Em Desenvolvimento (Roadmap Q4/2025)
 - **Mobile Sync** - Aplicativo para fotos de avarias
 - **IoT Integration** - Leitura automática de horas de uso
 - **Predictive Maintenance** - IA para prever falhas
