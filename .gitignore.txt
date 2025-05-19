@@ -1,0 +1,8 @@
+# Arquivos sensíveis
+private/
+.env
+*.pyc
+__pycache__/
+client_secrets.json
+token.pickle
+database/credentials/
