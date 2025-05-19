@@ -54,7 +54,7 @@ Código completo disponível apenas para clientes contratantes
 Leia os termos completos
 
 # ✉️ Contato Profissional
-Desenvolvedor: Leonardo Martins
-Portfólio: leonardomartins.dev
-LinkedIn: linkedin.com/in/leoms
-Email: leo.ms@protonmail.com
+Desenvolvedor: Leonardo Miguel dos Santos
+[![Linkedin](https://img.shields.io/badge/-LinkedIn/leomsantos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leomsantos/)](https://www.linkedin.com/in/leomsantos/)
+[![Gmail Badge](https://img.shields.io/badge/-leoms--98@hotmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:leoms-98@hotmail.com)
+[![GitHub](https://img.shields.io/github/followers/LeoMSgit?label=follow&style=social)](https://github.com/LeoMSgit)
